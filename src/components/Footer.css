@@ -1,0 +1,22 @@
+span{
+    color:red;
+}
+.footer-text-center{
+    text-align:center;
+}
+.footer-contact{
+    display:flex;
+    justify-content: space-around;
+    height:auto;
+    background-color: rgb(230, 66, 66);
+    padding: 2% 2%;
+}
+@media screen and (max-width:617px) {
+    .footer-contact{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction:column;
+    }
+    
+  }
